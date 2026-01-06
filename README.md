@@ -402,5 +402,3 @@ The development was done through a conversational approach:
 ## 📝 License
 
 This project was created for the Dotix Technologies Full Stack Developer skill test assessment.
-#   D o t i x - - - A s s i g n m e n t  
- 
