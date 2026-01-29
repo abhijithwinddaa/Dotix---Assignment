@@ -1,0 +1,16 @@
+# Netlify Configuration for Job Scheduler Frontend
+
+[build]
+  # Build command
+  command = "npm run build"
+  # Output directory (Vite outputs to dist)
+  publish = "dist"
+
+# Redirects for SPA (Single Page Application)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables placeholder
+# Set VITE_API_URL in Netlify dashboard to your Render backend URL
